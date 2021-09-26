@@ -33,7 +33,7 @@ const MusiSwapMenu = () => {
                   {x.homepage.chart}
                 </Link>
                 <Link className="listbutton">
-                  <img alt="musi swap images" src={swap} className="chartimg" />{" "}
+                  <img alt="musi swap images" src={swap} className="chartimg" />
                   {x.homepage.swap}
                 </Link>
                 <Link to="/collabmining" className="listbutton">

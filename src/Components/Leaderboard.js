@@ -63,6 +63,7 @@ const ChartMenu = () => {
             <Dropdown
               onSelect={(e) => {
                 setArtistSelect(e);
+                console.log(e);
               }}
             >
               <Dropdown.Toggle variant="success" id="dropdown-basic">

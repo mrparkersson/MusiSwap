@@ -48,7 +48,7 @@ const MostFans = () => {
                       />
                     </th>
                     <th>
-                      <h3>Chris Brown</h3>
+                      <h3>{recievedData.artistName.chris} </h3>
                     </th>
                     <th>
                       <h2>{recievedData.genre.name}</h2>
